@@ -544,6 +544,5 @@ body::-webkit-scrollbar-button, .modal-content::-webkit-scrollbar-button {
     display: none;
 }
 body::-webkit-scrollbar-thumb:hover, .modal-content::-webkit-scrollbar-thumb:hover {
-    background-color: #bbb9ff;
     cursor: pointer;
 }
