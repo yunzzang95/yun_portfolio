@@ -8,8 +8,9 @@ const ProjectItem = ({ link, image, title, product, description, index }) => {
             </div>
             <p>
                 <strong className="colorPT">{title}</strong>
-                <span>{product}</span><br />
+                <span>기여도 : {product}</span><br />
                 {description}
+                <a href={link} target="_blank">VIEW MORE</a>
             </p>
         </li>
     );

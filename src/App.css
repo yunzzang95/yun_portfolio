@@ -328,10 +328,10 @@ button {
     position: relative;
     height: 295px;
     margin-bottom: 15px;
-    border: 1px solid #555;
     overflow: hidden;
     cursor: pointer;
     text-align: center;
+    border-radius: 2px;
 }
 .project ul li div a img {
     height: 100%;
@@ -347,6 +347,19 @@ button {
     display: block;
     font-weight: 500;
     font-size: 1.3rem;
+}
+.project ul li p a {
+    display: block;
+    margin-top: 15px;
+    padding: 7px 0;
+    color: #ccc;
+    background: #000;
+    border-radius: 2px;
+    text-align: center;
+}
+.project ul li p a:hover {
+    color: #65ffc0;
+    transition: all 0.3s ease-in-out; 
 }
 
 /*slide css*/
@@ -427,6 +440,21 @@ button {
     letter-spacing: 0.15rem;
     text-align: center;
     background: rgba(0, 0, 0, 0.75);
+}
+.section04 .detailDesign ul li button {
+    display: none;
+    width: 100%;
+    padding: 7px 0;
+    color: #ccc;
+    background: #000;
+    border-radius: 0 0 2px 2px;
+    font-weight: 200;
+    text-align: center;
+    cursor: pointer;
+}
+.section04 .detailDesign ul li button:hover {
+    color: #65ffc0;
+    transition: all 0.3s ease-in-out; 
 }
 
 /*modal css*/
