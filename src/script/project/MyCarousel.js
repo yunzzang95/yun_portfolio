@@ -29,10 +29,9 @@ function MyCarousel() {
                 infinite: true,
                 responsive: [
                     {
-                        breakpoint: 768,
+                        breakpoint: 1500,
                         settings: {
-                            arrows: false,
-                            centerMode: true,
+                            centerPadding: '8rem',
                         }
                     },
                     {
