@@ -8,7 +8,7 @@ const ProjectItem = ({ link, image, title, product, description, index }) => {
             </div>
             <p>
                 <strong className="colorPT">{title}</strong>
-                <span className="colorPT2">{product}</span><br />
+                <span>{product}</span><br />
                 {description}
             </p>
         </li>

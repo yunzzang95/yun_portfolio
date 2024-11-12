@@ -73,7 +73,7 @@ button {
     padding: 5rem 0;
 }
 .tit {
-    margin-bottom: 4.5rem;
+    margin-bottom: 3.5rem;
     font-weight: 300;
     text-align: center;
     font-size: 3.5rem;
@@ -289,19 +289,38 @@ button {
     font-weight: 600;
 }
 
+/*project menu css*/
+.projectMenu {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+.projectMenu button {
+    margin: 0px 25px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #ccc;
+    background: none;
+    cursor: pointer;
+}
+.projectMenu button.active {
+    font-weight: 400;
+    color: #bbb9ff;
+    transition: all 0.3s ease-in-out;
+}
+
 .project ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
 }
 .section03 .project ul {
-    margin-bottom: -70px;
+    margin-bottom: -45px;
 }
 .project ul li {
     flex: 0 0 calc(33.333% - 30px);
-    margin: 0 15px 70px;
+    margin: 0 15px 45px;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 1.4;
     box-sizing: border-box;
 }
@@ -324,6 +343,7 @@ button {
     transform: scale(1.1);
 }
 .project ul li p strong{
+    margin-bottom: 5px;
     display: block;
     font-weight: 500;
     font-size: 1.3rem;
@@ -335,7 +355,7 @@ button {
     overflow: hidden;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 .carousel .slick-slide.slick-center{
     opacity: 1;
@@ -443,12 +463,14 @@ button {
 
 .footer {
     padding: 4rem;
-    font-weight: 200;
     font-size: 1.2rem;
     line-height: 1.8;
     color: #ccc;
     text-align: center;
     border-top: 1px solid #333;
+}
+.footer a {
+    font-size: 1.5rem;
 }
 
 /*topbutton css*/
