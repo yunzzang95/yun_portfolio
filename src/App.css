@@ -168,6 +168,7 @@ main {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    z-index: 1;
 }
 .section01 .titTop {
     position: relative;
@@ -203,6 +204,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: -1;
 }
 .section01 .scroll {
     position: absolute;
@@ -817,6 +819,7 @@ body::-webkit-scrollbar-button, .modal-content::-webkit-scrollbar-button {
 
 @media (max-width:430px){
     .section01 .titTop .bigTit {
+        font-size: 3rem;
         line-height: 1.05;
     }
     .section01 .titTop .smallTit {
@@ -841,7 +844,7 @@ body::-webkit-scrollbar-button, .modal-content::-webkit-scrollbar-button {
 
 @media (max-width:375px){
     .section01 .titTop .bigTit {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .section01 .titTop .smallTit {
         font-size: 1.2rem;
