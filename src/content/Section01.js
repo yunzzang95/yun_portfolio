@@ -69,7 +69,7 @@ const Section01 = forwardRef((props, ref) => {
             </div>
             <div className="scroll">SCROLL<br/><span></span></div>
             <div className="titTopBg">
-                <video src="https://cdn.pixabay.com/video/2018/11/06/19169-299997243_large.mp4" autoPlay loop muted></video>
+                <video src="https://cdn.pixabay.com/video/2018/11/06/19169-299997243_large.mp4" autoPlay loop muted playsinline></video>
             </div>
         </section>
     );
