@@ -85,7 +85,7 @@ const DetailDesign = ({ onImageClick }) => {
         <div className="project detailDesign">
             <ul>
                 {projects.map((project, index) => (
-                    <li key={index} className={project.images.length > 1 ? "package" : ""} data-aos="fade-up" data-aos-delay={project.delay}>
+                    <li key={index} className={project.images.length > 3 ? "package" : ""} data-aos="fade-up" data-aos-delay={project.delay}>
                         <div onClick={() => onImageClick(project.images)}>
                             <img src={project.imgSrc} alt={project.alt} />
                         </div>

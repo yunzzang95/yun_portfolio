@@ -4,6 +4,13 @@ import ProjectItem from './ProjectItem';
 
 const projects = [
     {
+        link: 'https://github.com/yunzzang95/yun_portfolio',
+        title: '개인 포트폴리오 (반응형)',
+        product: '디자인 100% / 퍼블리싱 100%',
+        description: 'react, html, css, js 작업을 통해 페이지를 작업하였습니다.',
+        image: require('../../images/sum/PJSum14.jpg'),
+    },
+    {
         link: 'https://www.onnuriglobal.co.kr/',
         title: '온누리번역통역 (카페24)',
         product: '디자인 100% / 퍼블리싱 100%',
@@ -42,7 +49,7 @@ const projects = [
         link: 'http://yunzzzang.dothome.co.kr/soonreborn/event03.php',
         title: '순리본 랜딩페이지 (반응형)',
         product: '퍼블리싱 100%',
-        description: '에디트+ 프로그램을 이용하여 php파일로 html, css, js 작업을 통해 FullPage 랜딩페이지를 작업하였습니다.',
+        description: '에디트+ 프로그램을 이용하여 php파일로 html, css, js 작업을 통해 랜딩페이지를 작업하였습니다.',
         image: require('../../images/sum/PJSum6.jpg'),
     },
     {

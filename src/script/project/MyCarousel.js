@@ -29,18 +29,37 @@ function MyCarousel() {
                 infinite: true,
                 responsive: [
                     {
-                        breakpoint: 1500,
+                        breakpoint: 1279,
                         settings: {
-                            centerPadding: '8rem',
+                            centerPadding: '16rem',
+                            slidesToShow: 1,
                         }
                     },
                     {
-                        breakpoint: 480,
+                        breakpoint: 1023,
                         settings: {
                             arrows: false,
-                            centerMode: true,
-                            slidesToShow: 1,
                             draggable : true,
+                            centerPadding: '10rem',
+                            slidesToShow: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            arrows: false,
+                            draggable : true,
+                            centerPadding: '5rem',
+                            slidesToShow: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 431,
+                        settings: {
+                            arrows: false,
+                            draggable : true,
+                            centerPadding: '3rem',
+                            slidesToShow: 1,
                         }
                     }
                 ]
